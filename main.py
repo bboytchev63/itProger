@@ -19,11 +19,40 @@
 #    if user_data > 10:
 #          print("Number is bigger than 10")
 
-isHappy = True
+# isHappy = True
 
-if isHappy:
-    print("I am happy")
-else:
-    print("I am not happy")
+# if isHappy:
+#     print("I am happy")
+# else:
+#     print("I am not happy")
+
+# data = input("Enter something: ")
+# if data.isdigit():
+#     print("You entered a number")
+# elif data.isalpha():
+#     print("You entered a string")
+
+# #6 – Циклы и операторы в них (for, while)
+# print("#6 Циклы и операторы в них (for, while)")
+# for i in range(1, 5):
+#     print(i)
+
+# for i in range(1, 10, 2):
+#     print(i)
+
+# count = 0 
+# word = "Python"
+# for i in word:
+#     print(i)
+#     if i == "h":
+#         count += 1
+# print("Count of h in Python is ", count)
+
+for i in range(1, 6):
+    print(i)
+    if i == 3:
+        break
+
+
 
 
