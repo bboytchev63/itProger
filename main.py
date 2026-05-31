@@ -78,16 +78,49 @@
 # for i in nums:
 #     print(i, type(i))
 
-n = input("Enter length")
-userlist = []
-i = 0
-while i < int(n):
-    userlist.append(input("Enter element: "))
-    i += 1
-print(userlist)
+# n = input("Enter length")
+# userlist = []
+# i = 0
+# while i < int(n):
+#     userlist.append(input("Enter element: "))
+#     i += 1
+# print(userlist)
 
 # https://youtu.be/pqaBWcsBGyA?t=10
          
-          
+# from itertools import count
 
-          
+
+# wird = "Rakia"
+# print(wird[0])
+# print(len(wird))
+# print(wird.count('a'))
+# print(wird.upper())
+# print(wird.find('k'))
+
+# word = "Rakia,wine,beer"
+# print(word.split(","))
+# drinks = word.split(",")
+
+# for i in drinks:
+#     print(i)
+
+# for i in range(len(drinks)):
+#     drinks[i] = drinks[i].capitalize()
+
+# print(drinks)
+# print('------------------')
+# result = " and ".join(drinks)
+# print(result)
+
+# word = "Rakia-Burgas63"
+# print(word[6:12])
+# print(word[-2:])
+# print(word[5:-3])     
+# print(word[::2])     
+
+list1 = [1, 2, "Stroka", True, 1.5]
+print(list1[2])
+print(list1[-2])
+print(list1[2:])
+print(list1[::-1])
