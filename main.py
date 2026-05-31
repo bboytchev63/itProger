@@ -194,5 +194,43 @@
 # data1.clear()
 # print(data1)
 
-new_data = frozenset([1, 2, 3, 4, 5])
-print(new_data)
+# new_data = frozenset([1, 2, 3, 4, 5])
+# print(new_data)
+
+##12 – Функции (def, lambda)
+
+# def test():
+#     print("Hello from function")
+# test()
+
+# def test_function(word):
+#     print("Hello ", word)
+# test_function("Rakia")
+# test_function(555)
+
+# def summa(a, b):
+#     res = a + b
+#     print("Summa = ", res)
+#     return res
+
+# summa(5, 10)
+# summa(1.5, 2.5)
+# summa("Hello ", "Rakia")
+# summa("Number ", str(5 ))
+
+# def minimal(l):
+#     minn = l[0]
+#     for i in l:
+#         if i < minn:
+#             minn = i
+#     return minn
+
+# nums = [1, 2, 3, 4, 5, 22, 0.5,0.001, -1]
+# result = minimal(nums)
+# print("Min = ", result)
+
+func = lambda x,y: x * y
+print(func(5, 10))
+
+
+

@@ -1,4 +1,6 @@
 Learn Python
 https://www.youtube.com/@itproger
-Уроки Python с нуля / #3 – Базовые операции в языке Python
+ #13 – Работа с файлами за счет Питон
+    https://www.youtube.com/watch?v=t-xQAhLNYSs
+    
 
