@@ -119,8 +119,27 @@
 # print(word[5:-3])     
 # print(word[::2])     
 
-list1 = [1, 2, "Stroka", True, 1.5]
-print(list1[2])
-print(list1[-2])
-print(list1[2:])
-print(list1[::-1])
+# list1 = [1, 2, "Stroka", True, 1.5,2]
+# print(list1[2])
+# print(list1[-2])
+# print(list1[2:])
+# print(list1[::-1])
+
+# #9 – Кортежи (tuple)
+# data = (1, 22, "Stroka", True, 1.5,22)
+# print(data[2])
+# print(data[1:4])
+# print(data[::-1])
+# print(data.count(22))
+
+# data1 = 1,2,3,"Maria",False,3.14
+# print(data1)
+# for i in data1:
+#     print(i)
+
+# nums = [1, 2, 3, 4, 5]
+# data2 = tuple(nums)
+# print(data2)
+
+# data3 = tuple("Rakia")
+# print(data3)
