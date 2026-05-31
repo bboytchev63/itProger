@@ -168,3 +168,31 @@
 # data2["price"] = 10
 # print(data2)
 
+# #  #11 – Множества (set и frozenset)
+# data = set('hello')
+# print(data)
+# data.add('world')
+# print(data)
+# data.remove('o')
+# print(data)
+# print ('h' in data)
+# print('--------------------')
+# data = {1, 2, 3, 4, 5, 1.5, 2}
+# print(data)
+# data.add(6)
+# print(data)
+# data.update([7, 8, 9, True, "Rakia"])
+# print(data)
+# data.add(True)
+# print(data)
+# data1 = {1,2,True,1.5,"Rakia"}
+# print(data1)
+# data1.remove(1)
+# print(data1)
+# data1.pop()
+# print(data1)
+# data1.clear()
+# print(data1)
+
+new_data = frozenset([1, 2, 3, 4, 5])
+print(new_data)
