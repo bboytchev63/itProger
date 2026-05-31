@@ -143,3 +143,28 @@
 
 # data3 = tuple("Rakia")
 # print(data3)
+
+#10 – Словари (dict)
+# data = {"name": "Rakia", "age": 21, "city": "Burgas"}
+# print(data["age"])
+# data["age"] = 22
+# data1 = {"name": "Maria,Stoiana", "age": 25, "city": "Sofia"}
+# print(data1["name"])
+# data2 = {(5,6):"Rakia-10", "age": 8}
+# print(data2[(5,6)])
+# print(data2["age"])
+
+# data2 = dict(name = "Rakia", age = 21, city = "Burgas")
+# print(data2["name"])
+
+# for i in data2:
+#     print(i, '-',data2[i])
+
+# data2.popitem()
+# print(data2)
+# print('keys : ', data2.keys())
+# print('Values : ',data2.values())
+# print('Items : ',data2.items())
+# data2["price"] = 10
+# print(data2)
+
