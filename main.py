@@ -248,12 +248,20 @@
 data = open("data/test.txt", "r")
 # print(data.read())
 # print('-----------------------')
-
 # for line in data:
 #     print(line, end="")
-
 # data.close()
 
+##14 – Обработчик исключений. Конструкция «try - except»
+x = 0
+while x == 0:
+    try:
+        x = int(input("Enter number: "))
+        x+= 5
+        print(x)
+        x = 1
+    except ValueError:
+        print("You should enter a number")
 
 
 
