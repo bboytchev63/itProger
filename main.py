@@ -229,8 +229,31 @@
 # result = minimal(nums)
 # print("Min = ", result)
 
-func = lambda x,y: x * y
-print(func(5, 10))
+# func = lambda x,y: x * y
+# print(func(5, 10))
+
+## 13 – Работа с файлами за счет Питон
+
+# file = open("data/test.txt", "w")
+# file.write("Hello from Python file")
+# file.write("\nThis is second line")
+# file.write("\nThis is third line")
+# file.close()
+
+# data = input("Enter something: ")
+# file = open("data/test.txt", "a")
+# file.write(data + "\n")
+# file.close()
+
+data = open("data/test.txt", "r")
+# print(data.read())
+# print('-----------------------')
+
+# for line in data:
+#     print(line, end="")
+
+# data.close()
+
 
 
 
