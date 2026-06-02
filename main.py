@@ -253,15 +253,29 @@ data = open("data/test.txt", "r")
 # data.close()
 
 ##14 – Обработчик исключений. Конструкция «try - except»
-x = 0
-while x == 0:
-    try:
-        x = int(input("Enter number: "))
-        x+= 5
-        print(x)
-        x = 1
-    except ValueError:
-        print("You should enter a number")
+# x = 0
+# while x == 0:
+#     try:
+#         x = int(input("Enter number: "))
+#         x+= 5
+#         print(x)
+#         x = 1
+#     except ValueError:
+#         print("You should enter a number")
+
+try:
+    x = 5/1
+    y = int(input("Enter number: "))
+except ZeroDivisionError:
+    print("You can't divide by zero")
+except ValueError:
+    print("You should enter a number")
+else:
+    print("This block will be executed if there is no exception")
+finally:
+    print("This block will be executed anyway")
+
+    
 
 
 
