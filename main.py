@@ -263,19 +263,38 @@ data = open("data/test.txt", "r")
 #     except ValueError:
 #         print("You should enter a number")
 
-try:
-    x = 5/1
-    y = int(input("Enter number: "))
-except ZeroDivisionError:
-    print("You can't divide by zero")
-except ValueError:
-    print("You should enter a number")
-else:
-    print("This block will be executed if there is no exception")
-finally:
-    print("This block will be executed anyway")
+# try:
+#     x = 5/1
+#     y = int(input("Enter number: "))
+# except ZeroDivisionError:
+#     print("You can't divide by zero")
+# except ValueError:
+#     print("You should enter a number")
+# else:
+#     print("This block will be executed if there is no exception")
+# finally:
+#     print("This block will be executed anyway")
 
-    
+#  #15 – Менеджер «With ... as» для работы с файлами
+# try:
+#     with open("data/test.txt", "r") as file:
+#         print(file.read())
+# except FileNotFoundError:
+#     print("File not found")
+# except Exception as e:
+#     print("An error occurred:", e)
+# else:
+#     print("File was read successfully")
+# finally:
+#     print("This block will be executed anyway")
+#     # file.close() - cannot be used here because the file is automatically closed after the with block
+
+try:
+    with open("data/test.txt", "r", encoding="utf-8") as file:   # open file and close it automatically after the block
+        print(file.read())
+except Exception as e:
+    print("An error occurred:", e)
+
 
 
 
