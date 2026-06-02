@@ -319,7 +319,42 @@
 # result = mymodule.add_three_numbers(1, 2, 3)    
 # print("Result of adding three numbers: ", result)
 
+##17 – Основы ООП. Создание класса и объекта
+# class Cat :
+#     name = None
+#     age = None
+#     isHappy = None
+#     def __init__(self, name, age, isHappy):  
+#         self.name = name
+#         self.age = age
+#         self.isHappy = isHappy
+#     def get_data(self):
+#         print("Name: ", self.name)
+#         print("Age: ", self.age)
+#         print("Is happy: ", self.isHappy)
+    
+#Конструкторът __init__
+#Стартира автоматично при създаване на обекта:
+#Методът set_data
+#Той не се извиква автоматично.
+#Трябва ръчно да го извикаш:    
 
+# cat1 = Cat()
+# cat1.name = "Murka" 
+# cat1.age = 3
+# cat1.isHappy = True
+
+# cat2 = Cat()
+# cat2.name = "Vaska"
+# cat2.age = 5
+# cat2.isHappy = False
+
+# print("Cat1 name: ", cat1.name)
+# print("Cat2 name: ", cat2.name)
+
+# cat3 = Cat("Tom", 2, True)
+# print("Cat3 name: ", cat3.name)
+# cat3.get_data()
 
 
 
