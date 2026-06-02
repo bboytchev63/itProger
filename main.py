@@ -245,7 +245,7 @@
 # file.write(data + "\n")
 # file.close()
 
-data = open("data/test.txt", "r")
+# data = open("data/test.txt", "r")
 # print(data.read())
 # print('-----------------------')
 # for line in data:
@@ -289,11 +289,36 @@ data = open("data/test.txt", "r")
 #     print("This block will be executed anyway")
 #     # file.close() - cannot be used here because the file is automatically closed after the with block
 
-try:
-    with open("data/test.txt", "r", encoding="utf-8") as file:   # open file and close it automatically after the block
-        print(file.read())
-except Exception as e:
-    print("An error occurred:", e)
+# try:
+#     with open("data/test.txt", "r", encoding="utf-8") as file:   # open file and close it automatically after the block
+#         print(file.read())
+# except Exception as e:
+#     print("An error occurred:", e)
+
+##16 – Модули в языке Питон. Создание и работа с модулями
+# import time
+# time.sleep(3)
+# print("Hello from module time")
+
+# import datetime as dt
+# import sys,os
+
+# now = dt.datetime.now()
+# print("Current date and time: ", now)
+# print("Python version: ", sys.version)
+# print("Current working directory: ", os.getcwd())
+# print(sys.path)
+# print(os.name)
+
+# from math import sqrt as s, pi
+# print("Square root of 16 is ", s(16))    
+# print("Value of pi is ", pi)
+
+# import mymodule
+# mymodule.hello()
+# result = mymodule.add_three_numbers(1, 2, 3)    
+# print("Result of adding three numbers: ", result)
+
 
 
 
