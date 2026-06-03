@@ -356,5 +356,34 @@
 # print("Cat3 name: ", cat3.name)
 # cat3.get_data()
 
+#18 – Конструкторы, переопределение методов
+class Cat :
+    name = None
+    age = None
+    isHappy = None
 
+    def __init__(self, name = None, age = None, isHappy = None):  
+        self.set_data(name, age, isHappy)
+        #self.get_data()
+        
+    def set_data(self, name = None, age = None, isHappy = None):
+        self.name = name
+        self.age = age
+        self.isHappy = isHappy  
 
+    def get_data(self):
+        print("Name: ", self.name)
+        print("Age: ", self.age)
+        print("Is happy: ", self.isHappy)
+
+cat1 = Cat("Murka", 3, True)
+cat1.get_data()
+
+cat2 = Cat("Vaska", 5)
+cat2.get_data()
+
+cat3 = Cat("Mika")
+cat3.get_data()
+
+cat4 = Cat()
+cat4.get_data()
