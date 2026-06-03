@@ -424,3 +424,18 @@
 # school1 = school(100,1990, "Burgas")
 # school1.get_info()
 
+ ##20 – Декораторы функций
+import webbrowser
+
+def validator(func):
+    def wrapper(url):
+        print("Это текст до функции")
+        func(url)
+        print("Это текст после функции")
+    return wrapper
+
+@validator
+def open_url(url):
+    webbrowser.open(url)
+
+open_url("https://itproger.com")
