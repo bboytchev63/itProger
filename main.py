@@ -357,33 +357,70 @@
 # cat3.get_data()
 
 #18 – Конструкторы, переопределение методов
-class Cat :
-    name = None
-    age = None
-    isHappy = None
+# class Cat :
+#     name = None
+#     age = None
+#     isHappy = None
 
-    def __init__(self, name = None, age = None, isHappy = None):  
-        self.set_data(name, age, isHappy)
-        #self.get_data()
+#     def __init__(self, name = None, age = None, isHappy = None):  
+#         self.set_data(name, age, isHappy)
+#         #self.get_data()
         
-    def set_data(self, name = None, age = None, isHappy = None):
-        self.name = name
-        self.age = age
-        self.isHappy = isHappy  
+#     def set_data(self, name = None, age = None, isHappy = None):
+#         self.name = name
+#         self.age = age
+#         self.isHappy = isHappy  
 
-    def get_data(self):
-        print("Name: ", self.name)
-        print("Age: ", self.age)
-        print("Is happy: ", self.isHappy)
+#     def get_data(self):
+#         print("Name: ", self.name)
+#         print("Age: ", self.age)
+#         print("Is happy: ", self.isHappy)
 
-cat1 = Cat("Murka", 3, True)
-cat1.get_data()
+# cat1 = Cat("Murka", 3, True)
+# cat1.get_data()
 
-cat2 = Cat("Vaska", 5)
-cat2.get_data()
+# cat2 = Cat("Vaska", 5)
+# cat2.get_data()
 
-cat3 = Cat("Mika")
-cat3.get_data()
+# cat3 = Cat("Mika")
+# cat3.get_data()
 
-cat4 = Cat()
-cat4.get_data()
+# cat4 = Cat()
+# cat4.get_data()
+
+##19 – Наследование, инкапсуляция, полиморфизм
+
+# class building:
+#     Year = None
+#     City = None
+#     def __init__(self, Year, City):
+#         self.Year = Year
+#         self.City = City
+#     def get_info(self):
+#         print("Year: ", self.Year, " City: ", self.City)
+
+# class school(building):
+#     pupils = 0
+#     def __init__(self, pupils, Year, City ):
+#         super(school,self).__init__(Year, City)
+#         self.pupils = pupils
+#     def get_info(self):
+#         super().get_info()
+#         print("Pupils: ", self.pupils)
+
+
+
+# class house(building):
+#     pass
+
+
+# class shop(building):
+#     pass
+
+# house1 = house(2000, "Sofia")
+# house1.get_info()
+# shop1 = shop(2010, "Plovdiv")
+# shop1.get_info()
+# school1 = school(100,1990, "Burgas")
+# school1.get_info()
+
