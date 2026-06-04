@@ -429,9 +429,11 @@ import webbrowser
 
 def validator(func):
     def wrapper(url):
-        print("Это текст до функции")
+        if not url.startswith("http://") and not url.startswith("https://"):
+            print("Invalid URL. URL should start with http:// or https://")
+            return
         func(url)
-        print("Это текст после функции")
+        print("URL opened successfully")
     return wrapper
 
 @validator
@@ -439,3 +441,5 @@ def open_url(url):
     webbrowser.open(url)
 
 open_url("https://itproger.com")
+open_url("itproger.com")
+
