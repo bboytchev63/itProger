@@ -1,0 +1,36 @@
+import json
+from pprint import pprint
+
+with open("catalog.json", "r") as file:
+    catalog = json.load(file)  # Dictionary with product information
+
+
+# print("Catalog:", catalog)
+# print("------------------------------------------")
+# pprint(catalog["products"],width = 40)  # Pretty print the list of products)
+# print("------------------------------------------")
+
+# pprint(catalog["products"][0], width = 40)  # Pretty print the first product in the list
+# print("------------------------------------------")
+# pprint(catalog["products"][0]["name"])  # Print the name of the first product
+# print("------------------------------------------")
+
+# for product in catalog["products"]:
+#     print(f"Product Name: {product['name']}, Price: {product['price']}")
+#     if product['sale_price'] is not None:
+#         print(f"  Sale Price: {product['sale_price']}")
+
+# print("------------------------------------------")
+# print('When some fields are missing:')
+# for product in catalog["products"]:
+#     print(product.get("sale_price"))  # This will print None for products without a sale_price field
+
+# print(catalog["products"][0].get('sizes'))
+
+catalog["products"][0].get('sizes').append("Extra_Large")
+
+with open("catalog.json", "w") as file:
+    json.dump(catalog, file, indent=2)
+
+
+

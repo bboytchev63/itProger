@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "name": "Matcha",
+      "description": "green tea leaves",
+      "price": 10.99,
+      "InStock": true,
+      "sale_price": 9.99,
+      "sizes": [
+        "small",
+        "medium",
+        "large",
+        "Extra_Large"
+      ]
+    },
+    {
+      "name": "Chai",
+      "description": "black tea leaves",
+      "price": 8.99,
+      "InStock": true,
+      "sale_price": null,
+      "sizes": [
+        "small",
+        "medium",
+        "large"
+      ]
+    },
+    {
+      "name": "Earl Grey",
+      "description": "black tea leaves with bergamot",
+      "price": 9.99,
+      "InStock": false,
+      "sizes": [
+        "small",
+        "medium",
+        "large"
+      ]
+    }
+  ]
+}
