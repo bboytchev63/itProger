@@ -14,7 +14,13 @@ JSON in Python - Visually Explained
 https://www.youtube.com/watch?v=4rmBOxn0PdI
 
 
-https://youtu.be/4rmBOxn0PdI?t=384
+Python Context Managers
+https://www.youtube.com/watch?v=LffQVBq3P9o
+Include SQLite 
+
+Python *args vs **kwargs - Visually Explained
+https://www.youtube.com/watch?v=FFpDsC6B2qw&list=PL8HmoRTjTSlH5tdpBPgn-Q5UwK4wRRo43&index=4
+
 
 
 
