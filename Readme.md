@@ -21,6 +21,7 @@ Include SQLite
 Python *args vs **kwargs - Visually Explained
 https://www.youtube.com/watch?v=FFpDsC6B2qw&list=PL8HmoRTjTSlH5tdpBPgn-Q5UwK4wRRo43&index=4
 
-
+Python F-strings - Visually Explained
+https://www.youtube.com/watch?v=H_TPIAEJl68
 
 
