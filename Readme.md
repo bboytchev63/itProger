@@ -24,4 +24,6 @@ https://www.youtube.com/watch?v=FFpDsC6B2qw&list=PL8HmoRTjTSlH5tdpBPgn-Q5UwK4wRR
 Python F-strings - Visually Explained
 https://www.youtube.com/watch?v=H_TPIAEJl68
 
-
+Matplotlib (Python Library) - Visually Explained
+https://www.youtube.com/watch?v=gamozygB2xE&list=PL8HmoRTjTSlE9iN8ijQyxUMkSu84AhyjN
+python -m pip install matplotlib
