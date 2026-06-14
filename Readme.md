@@ -31,3 +31,6 @@ python -m pip install matplotlib
 
 List Comprehensions - Visually Explained -REDICE the Lines of Code
 https://www.youtube.com/watch?v=DUnY6l482Lk
+
+Python Elif and Logical Expressions
+https://www.youtube.com/watch?v=6mpympBuBvg

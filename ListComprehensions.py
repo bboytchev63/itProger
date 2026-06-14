@@ -26,7 +26,7 @@
 # tv_shows_cap.clear
 # tv_shows_cap = [show.title() for show in tv_shows_cap if len(show) >= 10]
 # print('List compprehensive using <if>  ',tv_shows_cap)
-################## Faster #######################################
+################## Faster then for loop  #######################################
 from time import time
 start = time()
 n = [n**2 for n in range(1,30000001)]
