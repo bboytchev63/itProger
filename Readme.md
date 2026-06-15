@@ -34,3 +34,6 @@ https://www.youtube.com/watch?v=DUnY6l482Lk
 
 Python Elif and Logical Expressions
 https://www.youtube.com/watch?v=6mpympBuBvg
+
+ R-strings and Escape Sequences
+ https://www.youtube.com/watch?v=IZ0tJVeKCKE
