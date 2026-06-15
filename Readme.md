@@ -37,3 +37,6 @@ https://www.youtube.com/watch?v=6mpympBuBvg
 
  R-strings and Escape Sequences
  https://www.youtube.com/watch?v=IZ0tJVeKCKE
+
+ Nested loops
+ https://www.youtube.com/watch?v=je2hZUyq7IA&list=PL8HmoRTjTSlEgS2GsFaDr9zDLC1xD9FZf&index=24
